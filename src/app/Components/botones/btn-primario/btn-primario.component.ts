@@ -3,10 +3,13 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-btn-primario',
   standalone: true,
-  imports: [],
   templateUrl: './btn-primario.component.html',
-  styleUrl: './btn-primario.component.css'
+  styleUrls: ['./btn-primario.component.css']
 })
 export class BtnPrimarioComponent {
+  showSquare: boolean = false;
 
+  toggleSquare() {
+    this.showSquare = !this.showSquare;
+  }
 }

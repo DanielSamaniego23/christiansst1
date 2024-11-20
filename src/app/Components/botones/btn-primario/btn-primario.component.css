@@ -1,0 +1,7 @@
+.color-square {
+    width: 100px; /* Ancho del cuadrado */
+    height: 100px; /* Alto del cuadrado */
+    background-color: #d8cfc4; /* Color beige */
+    border: 2px solid #4a7c2a; /* Color verde pantano para el borde */
+    margin-top: 10px; /* Espacio entre el botón y el cuadrado */
+  }
